@@ -10,9 +10,8 @@ Users can download the app and run locally on their computer by executing the fo
 
 ```
 # Check if R packages are installed
-
 list.of.packages = c("tidyverse","gridExtra","formattable","htmltools",
-"shiny","DT","ggplot2","gridExtra","data.table","plyr","dplyr","tidyr","shinyjs")
+"shiny","DT","ggplot2","plyr","dplyr","tidyr","shinyjs","shinythemes","viridis","ploty","remotes")
 new.packages = list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 
@@ -24,25 +23,23 @@ library(htmltools)
 library(shiny)
 library(DT)
 library(ggplot2)
-library(gridExtra)
-library(data.table)
 library(plyr)
 library(dplyr)
 library(tidyr)
 library(shinyjs)
 library(shinythemes)
-library(tictoc)
 library(viridis)
 library(plotly)
+library(remotes)
 
-library(devtools)
-devtools::install_github("https://gitlab.kuleuven.be/ppw-okpiv/researchers/u0119584/ApproxPowerIL", force = T)
+# Install package from GitHub repository
+remotes::install_github("ginettelafit/ApproxPowerIL", force = T)
 
+# Load package ApproxPowerIL
 library(ApproxPowerIL)
 
 # Using Gist: users can launch this app with:
 shiny::runGist('302737dc046b89b7f09d15843389161c')
-
 
 ```
 
