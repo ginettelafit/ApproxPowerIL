@@ -2,7 +2,7 @@
 
 A Shiny application and R package to perform power analysis to select the number of persons for multilevel models with autocorrelated errors using asymptotic approximations of the information matrix
 
-The repository contains functions used in the following [preprint](https://psyarxiv.com/mnce4/):
+The repository contains functions used in the following [preprint](https://psyarxiv.com/tj5bv):
 
 Lafit... Complete
 
@@ -57,5 +57,5 @@ We distinguish five different two-level models where the within-person errors fo
 * Model 5 extends the third model by including a binary Level 2 predictor to estimate group differences in the within-persons associations between the time-varying predictor and the outcome. 
 
 
-[Lafit et al. (2022)](https://psyarxiv.com/mnce4/) includes a the analytic derivation of the information matrix of Models 1 to 5.
+[Lafit et al. (2023)](https://psyarxiv.com/tj5bv) includes a the analytic derivation of the information matrix of Models 1 to 5.
 
