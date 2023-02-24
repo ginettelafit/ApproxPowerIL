@@ -75,19 +75,19 @@ The data will be collected using an IL design, including 70 measurement occasion
 
 To perform simulation-based power analysis, we need to specify the parameter values of Model of interest. We select Model 2 (i.e., effect of a level-2 continuous predictor on the mean level of the outcome variable). We indicate that we want to consider the following sample sizes: 15, 30, 45, 60, 80, 100. We set the number of measurement occasions to 70.
 
-<img src="Figure_Shiny_App_1.png" width=500>
+<img src="Figure_Shiny_App_1.PNG" width=500>
 
 Next, we fill in likely values of the model parameters. We start with the fixed effects: the fixed intercept is set to 43.01, and the effect of the level-2 continuous variable is set to 1.50.  Next, we set the standard deviation and autocorrelation of the within-individual errors, given by 12.62 and 0.46, respectively. The standard deviation of the random intercept is set to 12.90. For the variable depression, we fix the value of the mean to 15.70  and the standard deviation to 5.00. We select the options *Center the level-2 variable W* and we set the Type I error to 0.05. Finally, we click on *Compute Power*.
 
-<img src="Figure_Shiny_App_2.png" width=500>
+<img src="Figure_Shiny_App_2.PNG" width=500>
 
 ### Step 2: Visualize the power curve and inspect app output.
 
 The app provides the power curve for the effect of interest as a function of the sample sizes indicated above. The next Figure shows the estimated power curve to test the effect of depression on negative affect. 
 
-<img src="Figure_Shiny_App_3.png">
+<img src="Figure_Shiny_App_3.PNG">
 
 The app also provides information about the standard error of the estimates of the effect of interest as a function of the sample size. 
 
-<img src="Figure_Shiny_App_4.png">
+<img src="Figure_Shiny_App_4.PNG">
 
