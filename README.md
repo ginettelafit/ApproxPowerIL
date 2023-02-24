@@ -2,9 +2,7 @@
 
 A Shiny application and R package to perform power analysis to select the number of persons for multilevel models with autocorrelated errors using asymptotic approximations of the information matrix
 
-The repository contains functions used in the following [preprint](https://psyarxiv.com/tj5bv):
-
-Lafit... Complete
+The repository contains functions used in the following [preprint](https://psyarxiv.com/tj5bv): Lafit, G., Artner, R., & Ceulemans, E. (2023, February 24). Enabling analytical power calculations for multilevel models with autocorrelated errors through deriving and approximating the information matrix.
 
 Users can download the app and run locally on their computer by executing the following commands in R or Rstudio. 
 
